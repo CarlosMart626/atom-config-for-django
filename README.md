@@ -16,4 +16,4 @@ process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
 ```
 apm install --package-files package-list.txt
 ```
-2. Update configuration using as example **config.txt** remember to replace Python paths
+2. Update configuration using as example **config.txt** remember to replace Python paths!
