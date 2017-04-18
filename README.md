@@ -11,5 +11,5 @@ Inside Atom / Init Script add the following:
 process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
 ```
 
-Install packages from **package-list.txt**
-Update configuration using as example **config.txt** remember to replace Python paths
+1. Install packages from **package-list.txt**
+2. Update configuration using as example **config.txt** remember to replace Python paths
