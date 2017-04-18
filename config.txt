@@ -1,0 +1,84 @@
+"*":
+  "atom-clock": {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#2196f3"
+      predefinedColor: "Blue"
+    fonts: {}
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-python":
+    extraPaths: "{PATH TO PYTHON SITE-PACKAGES}/site-packages"
+    pythonPaths: "{PATH TO PYTHON EXECUTABLE}"
+    useKite: false
+    useSnippets: "all"
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "*.pyc"
+      ".idea"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
+    ]
+  dash:
+    filenames:
+      "gruntfile.js": [
+        "grunt"
+      ]
+    grammars:
+      JavaScript: [
+        "nodejs"
+      ]
+  editor:
+    preferredLineLength: 120
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "f80fb829-52e1-38ad-37b7-ed8438a1d2eb"
+  linter: {}
+  "linter-flake8":
+    hangClosing: true
+    maxLineLength: 120
+  minimap:
+    absoluteMode: true
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
+    scrollAnimation: true
+  "seti-ui":
+    compactView: true
+    font: "Default Atom Font"
+    themeColor: "Orange"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+    syncHorizontalScroll: true
+  "tree-view":
+    hideIgnoredNames: true
+  "tree-view-git-branch": {}
+  welcome:
+    showOnStartup: false
